@@ -1,6 +1,10 @@
 # Project Management System
 
 A full-stack web application for managing projects and tasks: register/login securely, create projects, break them into tasks, track progress, and search/filter everything — with each user only ever able to see their own data.
+## Live Deployment Links
+- **Live Frontend**: https://pms-web-app-three.vercel.app
+- **Live Backend API**: https://pms-backend-udj0.onrender.com/api
+- **GitHub Repository**: https://github.com/IRTT-DHARSHA/project-management-system
 
 ## 1. Project Overview
 
