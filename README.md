@@ -119,6 +119,9 @@ Option B — Docker (bonus, see `docker-compose.yml`):
 docker compose up -d postgres
 ```
 This starts PostgreSQL on `localhost:5432` with the credentials already wired into `docker-compose.yml`'s `backend` service.
+## Database Schema (ER Diagram)
+<img width="827" height="2573" alt="image" src="https://github.com/user-attachments/assets/b39699ed-c58c-4c56-9573-8bf14a6f0687" />
+
 
 ## 10. Prisma Migration Commands
 
