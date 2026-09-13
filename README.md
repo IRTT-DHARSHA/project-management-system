@@ -185,11 +185,8 @@ See [`DATABASE_SCHEMA.md`](./DATABASE_SCHEMA.md) for the full ER diagram, relati
 - **Centralized error handling** that never leaks stack traces, database internals, or secrets to the client.
 - CORS restricted to the configured `FRONTEND_URL`.
 
-## 16. Screenshots
 
-_Add screenshots of the Login, Dashboard, Projects, and Task views here once the app is running locally._
-
-## 17. Deployment Instructions
+## 16. Deployment Instructions
 
 1. Provision a managed PostgreSQL instance (e.g. Supabase, Neon, RDS) and set `DATABASE_URL` accordingly.
 2. Backend: deploy `backend/` to any Node host (Render, Railway, Fly.io, EC2, etc.); set the environment variables from section 11, then run `npx prisma migrate deploy` followed by `node server.js` (see `docker-compose.yml`'s backend `command` for reference).
